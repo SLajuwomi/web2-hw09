@@ -14,7 +14,7 @@ class User extends Authenticatable
 
     protected $table = 'book_users';
     protected $primaryKey = 'user_id';
-    protected $dateFormat = 'Y-m-d H:i:sO';
+
     /**
      * The attributes that are mass assignable.
      *
