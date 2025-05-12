@@ -8,6 +8,8 @@
     <link href="{{ asset('styles.css') }}" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="" crossorigin="anonymous"></script>
     <script src="{{ asset('books.js') }}" integrity="" defer></script>
+    <link rel="icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
 </head>
 
 <body>
