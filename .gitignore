@@ -13,6 +13,5 @@ npm-debug.log
 yarn-error.log
 /.idea
 /.vscode
-composer.lock
 hash_passwords.php
 package-lock.json
