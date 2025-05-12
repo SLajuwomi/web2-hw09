@@ -8,5 +8,13 @@ class Books extends Model
 {
     protected $table = 'books';
     protected $primaryKey = 'book_id';
-    protected $timeStamps = FALSE;
+    public $timestamps = false; // Crucial line!
+
+    protected $fillable = [
+        'title',
+        'book_condition',
+        'price',
+        'user_id',
+        'created_by',
+    ];
 }

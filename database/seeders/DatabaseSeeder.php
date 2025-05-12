@@ -13,6 +13,11 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
+        // \App\Models\User::factory(10)->create(); // Keep this commented if not using factories for users
+
+        $this->call([
+            UserSeeder::class,
+            BookSeeder::class,
+        ]);
     }
 }
